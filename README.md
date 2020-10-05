@@ -44,7 +44,7 @@ python3  app/src/train.py
 
 + Clone the repository 
 
-+ Build Docker Images
++ Build Docker Image
 ```
 docker build . -t ml_project
 ```
