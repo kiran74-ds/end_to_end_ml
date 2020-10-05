@@ -9,9 +9,9 @@ These are the following items which I have implemented in the code.
 + Train Machine Learning model
 + Make predictions on the model
 
-### Project Instructions:
+## Project Instructions:
 
-##### This project can be run locally by following the steps:
+### This project can be run locally by following the steps:
 
 + Create Virtual Environmnet
 ```
@@ -40,7 +40,7 @@ python3 -m pytest app/test
 python3  app/src/train.py
 ```
 
-##### Running the project using docker  
+### Running the project using docker  
 
 + Clone the repository 
 
