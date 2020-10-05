@@ -17,7 +17,7 @@ These are the following items which I have implemented in the code.
 ```
 python3 -m venv venv
 ```
-+Activate Virtual Environment
++ Activate Virtual Environment
 
 ```
 source venv/bin/activate
