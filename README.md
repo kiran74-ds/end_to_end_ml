@@ -4,7 +4,7 @@ The idea behind this project is to develop a Machine Learning model which can be
 These are the following items which I have implemented in the code.
 + Create Virtual Environment using python.
 + Pylint to follow best coding practices.
-+ Defining unit test cases using UnitTest library.
++ Defining unit test cases using unittest library.
 + Run unit test cases using pytest.
 + Train Machine Learning model
 + Make predictions on the model
