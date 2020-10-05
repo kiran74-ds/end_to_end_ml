@@ -1,6 +1,6 @@
 ## End to End Machine Learning
 
-The idea behind this project is to develop a Machine Learning model which can be deployed in the production. As part of this I have built classification model on titanic dataset.
+The idea behind this project is to develop a Machine Learning model which can be deployed in the production. As part of this I have built a binary classification model on titanic dataset.
 These are the following items which I have implemented in the code.
 + Create Virtual Environment using python.
 + Pylint to follow best coding practices.
