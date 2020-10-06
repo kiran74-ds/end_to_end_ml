@@ -1,7 +1,7 @@
 # pylint: disable=missing-module-docstring
 import logging
 import pandas as pd
-
+from sklearn.metrics import classification_report
 
 def impute_missing_values(data_frame, columns, is_numeric=False):
     '''
@@ -68,9 +68,10 @@ def train_model(model_class, features, target):
 
     model = model_class()
     model.fit(features, target)
-
+    predictions = model.predict(features)
     accuracy_score = round(model.score(features, target) * 100, 2)
     print(f'accuracy ({model.__repr__()}): {accuracy_score}')
+    logging.info(classification_report(target, predictions))
 
     return model, accuracy_score
 

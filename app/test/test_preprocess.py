@@ -59,8 +59,9 @@ class TestProcessing(unittest.TestCase):
         # pylint: disable=missing-function-docstring
         classifiers = [DecisionTreeClassifier,GradientBoostingClassifier, LogisticRegression]
         for classifier in classifiers:
-            model, accuracy = train_model(classifier, [[1, 1, 1], [1, 1, 1], [1, 1, 1],
-                                                       [1, 1, 1]], [0, 1, 0, 1])
+            model, accuracy = train_model(classifier, [[1, 1, 0], [1, 1, 1], [1, 1, 1],
+                                                       [1, 0, 1],[1, 0, 1], [0, 1, 1], [1, 1, 1],
+                                                       [0, 1, 1]], [0, 1, 1, 0, 0, 1, 1, 0])
 
             self.assertIsInstance(model, classifier)
             self.assertIsInstance(accuracy, float)
