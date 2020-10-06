@@ -1,6 +1,6 @@
 ## End to End Machine Learning
 
-The idea behind this project is to develop a Machine Learning model which can be deployed in the production. As part of this I have built a binary classification model on titanic dataset.Premilary Anlaysis on data can be found in the Jupyter notebook which resides in research folder.
+The idea behind this project is to develop a Machine Learning model which can be deployed in the production. As part of this I have built a binary classification model on titanic dataset.Preliminary Analaysis on data can be found in the Jupyter notebook which resides in research folder.
 These are the following items which I have implemented in the code.
 + Create Virtual Environment using python.
 + Pylint to follow best coding practices.
