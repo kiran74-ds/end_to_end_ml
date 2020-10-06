@@ -47,12 +47,12 @@ class TestProcessing(unittest.TestCase):
     @staticmethod
     def test_one_hot_encoding():
         # pylint: disable=missing-function-docstring
-        mock_frames = pd.DataFrame({'cat_columnn': ['A','A','B','B','A']})
+        mock_frames = pd.DataFrame({'cat_columnn': ['A', 'A', 'B', 'B', 'A']})
 
-        expected = pd.DataFrame({'cat_columnn_A' : [1,1,0,0,1],
-                                 'cat_columnn_B' : [0,0,1,1,0],})
+        expected = pd.DataFrame({'cat_columnn_A': [1, 1, 0, 0, 1],
+                                 'cat_columnn_B': [0, 0, 1, 1, 0], })
         assert_frame_equal(expected, one_hot_coding(
-            mock_frames, ['cat_columnn']),check_dtype=False)
+            mock_frames, ['cat_columnn']), check_dtype=False)
 
 
     def test_train_model(self):
