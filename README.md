@@ -53,3 +53,12 @@ docker build . -t ml_project
 docker run  ml_project
 ```
 
++ Save Docker Image
+```
+docker save --output saved-image.tar ml_project
+```
+
++ Load Docker Image
+```
+docker load --input saved-image.tar
+```
